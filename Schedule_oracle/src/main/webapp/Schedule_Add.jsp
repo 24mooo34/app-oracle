@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-	<title>予定追加画面★</title>
+	<title>予定追加画面★★</title>
 	<link rel="stylesheet"  href="css/Schedule.css">
 </head>
 <body>
