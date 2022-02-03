@@ -10,7 +10,7 @@ import java.sql.SQLException;
 public class DBconnection {	
 	//DB接続用フィールド
 	private static String driver = "oracle.jdbc.driver.OracleDriver";
-	private static String url = "jdbc:oracle:thin:@localhost:1521/XEPDB1";
+	private static String url = "jdbc:oracle:thin:@test-oracle.ctcb5xn3a4zt.ap-northeast-1.rds.amazonaws.com:1521/ORCL";
 	private static String user = "testuser";
 	private static String pass = "nattou24";
 	//DBコネクション
