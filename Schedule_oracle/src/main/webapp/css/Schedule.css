@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+h4{
+  width:400px;
+  text-align:center;
+  font-size:25px;
+  border:0px solid #ffffff;
+  border-radius: 10px;
+  color:#000000;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{	
+	background-color: #F5F5F5;
+	background-attachment: fixed;
+}
+
+table {
+    border-collapse: separate;  /* 表の線と線の間を空ける */
+    border-spacing:  2px;       /* 表の線と線の間の幅 */
+    width:  65%;               /* 幅指定 */
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+th,td {
+    padding: 5px 10px;          /* 余白指定 */
+    height: 35px;
+}
+ 
+th {
+	font-size:20px;
+    background-color:  #CC3300; /* 背景色指定 */
+    width:  180px;              /* 幅指定 */
+    font-weight:  bold; 
+    color:  #fff;               /* 文字色指定 */
+    text-align: left;
+    padding: 5px 15px; 
+}
+ 
+td {
+    background-color:  #e2cfcf; /* 背景色指定 */
+    font-weight:  bold; 
+}
+
+/*-------------------------- ボタン--------------------------  */
+.btn-grey,
+input.btn-grey {
+  width: 135px;
+  height: 40px;
+  font-weight:bold;
+  font-size:17px;  
+  color: #ffffff;
+  background-color: #666666;
+  display:inline-flex;
+}
+.btn-grey:hover,
+input.btn-grey:hover {
+  width: 135px;
+  height: 40px;
+  font-weight:bold;
+  font-size:17px;
+  color: #ffffff;
+  background: #CC9966;
+  display:inline-flex;
+}
+input.btn-radius {
+   border-radius: 100vh;
+}

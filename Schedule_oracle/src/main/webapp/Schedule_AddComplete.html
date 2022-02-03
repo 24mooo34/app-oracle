@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>予定追加完了画面</title>
+	<link rel="stylesheet"  href="css/Schedule.css">
+</head>
+<body>
+	<br><br>
+	<h4>予定を登録しました。★</h4>
+	<br>
+	
+	<form action="ScheduleServlet" method="get">
+		<input type="submit" value="続けて登録する" class="btn btn-grey btn-radius" style="margin-left: auto;margin-right: auto;" /><br>
+		<input type="hidden" name="process" value="新規追加" />	
+	</form>
+	<form action="CalendarServlet" method="get">
+		<input type="submit" value="ホームに戻る" class="btn btn-grey btn-radius" style="margin-left: auto;margin-right: auto;" /><br><br>
+	</form>
+
+</body>
+</html>

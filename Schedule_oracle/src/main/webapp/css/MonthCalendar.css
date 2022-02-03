@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+body{
+	background:#FFFFFF;
+}
+#container{
+  width:1000px;
+  min-height:100vh;
+  margin:0 auto;
+  font-family: "M PLUS Rounded 1c";
+  padding:20px 0 40px;
+}
+#container > p{
+	display:flex;
+	width:90%;
+	margin:0 auto 20px;
+	justify-content:space-between;
+	align-items:center;
+}
+#container > p > a{
+	display:block;
+	width:70px;
+	height:70px;
+	text-align:center;
+	line-height:70px;
+	border-radius:50%;
+	background:#fefefe;
+	font-size:20px;
+	text-decoration:none;
+}
+
+#right{
+	float:right;
+}
+
+body{	
+	background-color: #F5F5F5;
+	background-attachment: fixed;
+}
+
+h2{
+  text-align:center;
+  margin:5px;
+  font-size:64px;
+  color:#ffffff;
+  text-shadow: 1px 1px 0 #333;
+}
+table{
+  width:100%;
+  height: 550px;
+  margin:0px auto 0;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border-spacing: 0;
+}
+table.top{
+  width:100%;
+  height: 80px;
+  margin:0px auto 0;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border-spacing: 0;
+}
+td,th{
+  border:2px solid #606060;
+  width:50px;
+  height: 100px;
+  text-align: left;
+  vertical-align: top;
+  background-color:#ffffff;
+  font-size:17px;
+  padding:2px 2px;
+}
+th{
+  height: 30px;
+  color:#ffffff;
+  text-align: center;
+  background-color:#CC3300;
+  font-weight:bold;
+  font-size:20px;
+}
+th.top{
+	border:2px solid #972600;
+	width:50px;
+	text-align: center;
+	background-color:#CC3300;
+	font-weight:bold;
+}
+tr *:first-child{
+  color:#ff69b4;
+}
+tr *:last-child{
+  color:#0ba9ea;
+}
+td.today{
+	background:#ffff80;
+}
+
+/*--------------------------ラベル--------------------------  */
+input.schedule{
+	width: 130px;
+	text-align: left;
+	font-weight:bold;
+    font-size:15px;
+    color:#000000;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+}
+
+
+/*-------------------------- 各種ボタン--------------------------  */
+.btn-grey,
+input.btn-grey {
+  width: 135px;
+  height: 40px;
+  font-weight:bold;
+  font-size:17px;
+  text-align: center;  
+  color: #ffffff;
+  background-color: #666666;
+}
+.btn-grey:hover,
+input.btn-grey:hover {
+  width: 135px;
+  height: 40px;
+  font-weight:bold;
+  font-size:17px;
+  text-align: center;
+  color: #ffffff;
+  background: #CC9966;
+}
+input.btn-radius {
+   border-radius: 100vh;
+}
